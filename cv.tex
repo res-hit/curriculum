@@ -27,6 +27,12 @@
 % Custom bullet style
 \renewcommand{\labelitemi}{$\bullet$}
 
+% Add these commands in the preamble, before \begin{document}
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{0.7ex plus .2ex}  % Reduce section spacing
+\setlength{\parskip}{0.5ex}  % Reduce paragraph spacing
+\setlength{\itemsep}{0ex}    % Reduce item spacing in lists
+\setlength{\parsep}{0ex}     % Reduce spacing between paragraphs in lists
+
 \begin{document}
 
 \begin{minipage}{0.2\textwidth}
@@ -34,7 +40,7 @@
     \includegraphics[width=\linewidth]{propic-crop.png}
 \end{minipage}
 \hspace{2cm}
-\begin{minipage}{0.6\textwidth}
+\begin{minipage}{0.59\textwidth}
     {\huge\bfseries Rei Zoto}
 \end{minipage}
 
@@ -43,13 +49,28 @@
 \faMobile\ 3489999755 \hspace{1em} | \hspace{1em}
 \faEnvelope\ r.zoto1995@gmail.com
 
-\section*{Technical Skills}
+
+\section*{Education and Qualifications}
+\begin{tabular}{ll}
+  Oct 2014 - Jul 2018 & Bachelor Degree in Computer Science Engineering \\
+                      & \textit{Politecnico di Torino, Torino} \\[1ex]
+  Oct 2018 - Dec 2024 & Master Degree in Computer Science Engineering \\
+                      & \textit{Politecnico di Torino, Torino}
+  \end{tabular}
+  
+
+\section*{Technical and Soft Skills}
 Programming languages: Python | Java | C | C++ | SQL | Bash \\
 Programming skills: Multithreading | Algorithms and Data Structures | SoftEng | Version Control \\
-Domains: Embedded Systems | Operating Systems | Distributed Systems | Big Data | Machine Learning
+Domains: Embedded Systems | Operating Systems | Distributed Systems | Big Data | Machine Learning \\
+Soft Skills: Problem Solving | Multitasking Abilities | Analytical and Critical Thinking | Learning Curve
 
-\section*{Soft Skills}
-Problem Solving | Multitasking Abilities | Analytical and Critical Thinking | Learning Curve
+\section*{Languages}
+\begin{tabular}{ll}
+Italian   & \faCircle\faCircle\faCircle\faCircle\faCircle \\
+English   & \faCircle\faCircle\faCircle\faCircleEmpty\faCircleEmpty \\
+Albanian  & \faCircle\faCircle\faCircle\faCircle\faCircle
+\end{tabular}
 
 
 \section*{Profile}
@@ -63,25 +84,8 @@ Master's Degree Student in Computer Science Engineering at Politecnico di Torino
 
 \textbf{Master Thesis - Detection of Personal Protective Equipment in Factory Settings: A Cloud-based Solution}: Developed a system for real-time video streaming to the cloud with ML-based detection of worker safety compliance. The solution comprises two components: a containerized gateway for video streaming and sensor data collection, and cloud-managed services for edge data processing (2022-2024).
 
-\vspace{1ex}
+\vspace{0.5ex}
 During my thesis work, I gained foundational knowledge in machine learning, particularly in deep neural network architectures such as convolutional neural networks and transformers. In early 2024, I was co-founding a startup focused on GenAI application development but stepped down due to misaligned vision and goals.
-
-\section*{Education and Qualifications}
-
-
-\begin{tabular}{ll}
-Oct 2014 - Jul 2018 & Bachelor Degree in Computer Science Engineering \\
-                    & \textit{Politecnico di Torino, Torino} \\[2ex]
-Oct 2018 - Dec 2024 & Master Degree in Computer Science Engineering \\
-                    & \textit{Politecnico di Torino, Torino}
-\end{tabular}
-
-\section*{Languages}
-\begin{tabular}{ll}
-Italian   & \faCircle\faCircle\faCircle\faCircle\faCircle \\
-English   & \faCircle\faCircle\faCircle\faCircleEmpty\faCircleEmpty \\
-Albanian  & \faCircle\faCircle\faCircle\faCircle\faCircle
-\end{tabular}
 
 
 \vfill
