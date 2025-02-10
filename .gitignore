@@ -14,6 +14,7 @@
 
 ## Generated PDFs
 *.pdf
+!propic.png  # Allow tracking of profile picture
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
